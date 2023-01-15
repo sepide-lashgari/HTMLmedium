@@ -1,0 +1,74 @@
+@font-face{
+    font-family: sans-serif-medium;
+    src: url(/font/Sans\ Serif\ Medium.ttf);
+} 
+@font-face {
+    font-family: normaly;
+    src: url(../Font/IRANSansX-Regular.woff);
+  }
+  @font-face {
+    font-family: boldy;
+    src: url(../Font/IRANSansX-Bold.woff);
+  }
+:root{
+    --color-light:rgba(117,117,117,1);
+    --color-dark:rgba(41,41,41,1);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+    font-family: normaly;
+}
+
+article{
+    max-width: 728px;
+    min-width: 728px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 4rem;
+    font-family: boldy;
+}
+h2{
+    font-size: 2rem;
+    color: var(--color-light);
+    font-style: normal;
+    margin-top: 0;
+}
+.writer-info{
+    display: flex;
+}
+ .profile-container{
+    width: 60px;
+    height: 60px;
+} 
+.profile-container img{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.information-container{
+    display: flex;
+}
+.information-container  span{
+    display: inline-block;
+
+}
+.paragraph-container{
+    margin: 0 auto;
+}
+p{
+    font-size: 2rem;
+    margin: 4rem 0 0;
+    line-height: 3rem;
+    
+}
+ul li{
+    margin:4.2rem 0 0 2rem;
+    font-size: 2rem;
+    line-height: 3rem
+}
