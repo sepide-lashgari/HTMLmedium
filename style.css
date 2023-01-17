@@ -37,10 +37,12 @@ h2{
     font-size: 2rem;
     color: var(--color-light);
     font-style: normal;
-    margin-top: 0;
+    margin: 0 0 6rem ;
 }
+
 .writer-info{
     display: flex;
+    margin-left: 38rem;
 }
  .profile-container{
     width: 60px;
@@ -51,16 +53,37 @@ h2{
     border: 1px solid transparent;
     border-radius: 50%;
 }
+.author-name,
+.information-container{
+    margin: 1rem;
+}
+.author-name span{
+    font-size: 1.6rem;
+}
 .information-container{
     display: flex;
 }
 .information-container  span{
+    font-size: 1.3rem;
     display: inline-block;
 
+}
+.beetwen-span{
+    padding: 0 0.75rem;
 }
 .paragraph-container{
     margin: 0 auto;
 }
+a{
+    color:black;
+}
+mark{
+    background-color: #e0f9d6;
+    font-size: 2rem;
+    margin:6rem 0 0;
+    line-height: 3rem;
+}
+
 p{
     font-size: 2rem;
     margin: 4rem 0 0;
@@ -71,4 +94,9 @@ ul li{
     margin:4.2rem 0 0 2rem;
     font-size: 2rem;
     line-height: 3rem
+}
+#footer{
+    display: flex;
+    margin: 5rem;
+    justify-content:space-evenly;
 }
